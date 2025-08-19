@@ -1,0 +1,24 @@
+# .gitignore
+# Ignore Python cache and temporary files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Ignore virtual environments
+venv/
+ENV/
+.venv/
+
+# Ignore IDE / editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumb

@@ -1,0 +1,4 @@
+# requirements.txt
+# Python dependencies for JSON Comment Counter project
+
+urllib3>=2.0.0

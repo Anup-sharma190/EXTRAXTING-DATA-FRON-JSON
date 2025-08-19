@@ -1,38 +1,33 @@
-# EXTRAXTING-DATA-FRON-JSON
-JSON-COMMENT-COUNTER
-# 📊 JSON Comment Counter  
+# JSON Comment Counter
 
-## 📌 Project Overview  
-The **JSON Comment Counter** is a Python project that demonstrates how to **fetch, parse, and analyze JSON data** from a web resource.  
-The program retrieves a JSON file containing user comments, extracts the `count` values, and calculates:  
+## 📌 Project Overview
+The **JSON Comment Counter** is a Python project that demonstrates how to fetch, parse, and analyze JSON data from a web URL. It retrieves a JSON file, extracts all comment counts, and calculates:  
+1. The total number of comments  
+2. The sum of all comment counts  
 
-- ✅ Total number of comments  
-- ✅ Sum of all comment counts  
-
-This project is part of my **Python for Everybody specialization practice** and showcases skills in **web data handling, JSON parsing, and Python scripting**.  
+This project highlights skills in Python scripting, JSON parsing, and handling web data — essential for data processing and automation tasks.  
 
 ---
 
-## 🛠️ Skills Demonstrated  
-- Python Programming  
-- JSON Data Parsing (`json` library)  
-- Web Data Retrieval (`urllib.request`)  
-- Data Aggregation & Summation  
-- Writing Clean, Recruiter-Friendly Code  
+## 🛠️ Skills Demonstrated
+- Python scripting  
+- JSON parsing using the `json` library  
+- Web data handling with `urllib.request`  
+- Data aggregation (counting & summing values)  
+- Clean and modular coding practices  
 
 ---
 
-## 🧰 Tools & Libraries  
+## 📚 Tools & Libraries
 - Python 3.x  
-- `urllib` → for fetching data from a URL  
-- `json` → for parsing JSON into Python objects  
+- `urllib` – to fetch data from a URL  
+- `json` – to parse and work with JSON data  
 
 ---
 
-## 🚀 How to Run  
+## 🚀 How to Run the Project
 
-1. Clone this repository or download the script.  
-2. Run the program:  
-
-```bash
-python json_counter.py
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/json-comment-counter.git
+   cd json-comment-counter
